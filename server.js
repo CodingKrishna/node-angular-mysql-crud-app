@@ -57,7 +57,7 @@ app.use(
  * GET home page.
  */
 app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname + './views/index.html'));
+    res.sendFile(path.join(__dirname + './index.html'));
 });
 
 //app.get('/', routes.index);
