@@ -30,18 +30,21 @@ a {
     
     padding:2px;
     padding-left:40px;
-    background:#665847;color:#FEFFFD;
+    background:#00304C;color:#FEFFFD;
 }
 .data-btn{padding-left:8px}
 .data-btn button{
-    padding:10px 20px;background:#FF9900;border:1px solid #fff;
+    padding:10px 20px;background:#18bb7c;border:1px solid #fff;
     color:#FEFFFD;font-weight:bold;
 }
-
+.data-btn button a{
+    color: #FEFFFD;
+    text-decoration: none;
+}
 .data-table{padding-left:10px;}
 .data-table table{border-collapse:collapse;border:1px solid #ddd;width:100%}
 .a-inside{padding:4px 10px;border:1px solid #fff;text-decoration:none;}
-.a-inside.edit{background-color:#00CC00;color:#fff;}
+.a-inside.edit{background-color:#18bb7c;color:#fff;}
 .a-inside.delete{background-color:#D23641;color:#fff;}
 
 input[type="text"]{
@@ -66,4 +69,9 @@ input[type="submit"]{
 textarea{ border:1px solid #ddd;width:296px;}
 .label{font-weight:bold;}
 
-#footer{margin-left:82%;margin-top:10%}
+#footer{
+    background-color: gray;
+    margin-top:10%;
+    padding: 2%;
+    text-align: center;
+}
